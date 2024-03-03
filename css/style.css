@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,5 +19,57 @@ h6 {
 }
 
 p {
-  margin: 0;
+  margin: 0; */
+/* } */
+body {
+  background-color: #f4f4f4;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
+
+.separator {
+  border: 2px solid #737272;
+  margin: 20px 0;
+}
+
+/* Navbar section styles Start */
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.navbar-brand img {
+  margin-right: 5px;
+  height: 3.5rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.5rem;
+  transition: 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: coral;
+  color: black;
+  font-style: italic;
+  border-bottom: 0.3rem solid #1b1b1c;
+}
+.navlist-right {
+    margin-left: auto; /* Pushes the div to the right */
+}
+
+  /* Hero Section CSS */
+ 
+  .hero-image {
+    content: "";
+    background-image: linear-gradient(rgba(225,246,255, 0.2),rgba(0,171,240, 0.2)),url("https://cdn.pixab");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
